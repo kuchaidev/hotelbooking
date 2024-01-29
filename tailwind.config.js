@@ -16,7 +16,11 @@ module.exports = {
         display: ["Georama"],
       },
     },
-  },  
-  plugins: [],
+  },
+  daisyui: {
+    themes: ["light",],
+  },
+ plugins: [require("daisyui")],
+
 }
 

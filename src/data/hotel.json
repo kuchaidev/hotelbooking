@@ -16,8 +16,8 @@
     "hotelId" : 1257278,
     "hotelInDestination" : true,
     "hotelRating" : 4,
-    "price" : 5000,
-    "discount" : 10,
+    "price" : 29000,
+    "discount" : 15,
     "amenities": {
         "pool" : true,
         "spa" : true,
@@ -61,7 +61,7 @@
     "hotelId" : 164122,
     "hotelInDestination" : true,
     "hotelRating" : 4,
-    "price" : 5000,
+    "price" : 19999,
     "amenities": {
         "pool" : true,
         "spa" : true,
@@ -105,7 +105,8 @@
     "hotelId" : 164116,
     "hotelInDestination" : true,
     "hotelRating" : 4,
-    "price" : 5000,
+    "price" : 24000,
+    "discount" : 25,
     "amenities": {
         "pool" : true,
         "spa" : true,

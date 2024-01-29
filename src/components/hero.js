@@ -1,22 +1,16 @@
-import React, {useState} from "react";
+import React, {useState,useEffect,useRef} from "react";
 import { Business, CalendarToday, Percent } from '@mui/icons-material';
-import Datepicker from "react-tailwindcss-datepicker"; 
+// import Datepicker from "react-tailwindcss-datepicker"; 
+import Flatpickr from "react-flatpickr";
 
 function Hero() {
-  const [value, setValue] = useState({ 
-    startDate: null ,
-    endDate: null 
-  }); 
-    
-  const handleValueChange = (newValue) => {
-    setValue(newValue); 
-  } 
+
   return (
     <>
-      <div className="hero bg-cover h-screen font-display">
+      <div className="hero bg-cover h-[50rem] font-display">
         {/* Hero content */}
-        <div className="px-10 space-y-5 h-96 py-6">
-          <h2 className="px-[300px] mx-10 py-16 font-display text-[45.78px] font-bold text-white text-center drop-shadow-2xl indent-0">
+        <div className="px-10 space-y-5 h-96- -py-64">
+          <h2 className="px-[250px] mx-10 py-16 font-display text-[45.78px] font-bold text-white text-center drop-shadow-2xl indent-0">
             Your ideal vacation starts here. Reserve your dream house now!
           </h2>
           {/*Form Section*/}
@@ -28,18 +22,8 @@ function Hero() {
               </label>
               <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="destination" type="text" placeholder="Where to?" />
             </div>
-            {/* <div className="mb-4 text-left">
-              <label className="mb-2 font-display" for="destination">
-                Dates
-              </label>
-              <Datepicker 
-                primaryColor={"fuchsia"} 
-                value={value} 
-                onChange={handleValueChange} 
-                showShortcuts={true} 
-              />           
-            </div> */}
-            <div className="flex flex-wrap -mx-3 mb-6">
+
+            <div className="flex flex-wrap mx-auto mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0 text-left">
                 <label className="mb-2" for="dates">
                   Dates

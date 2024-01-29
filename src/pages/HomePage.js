@@ -63,16 +63,6 @@ function HomePage() {
 						</a>)
 					)}
 				</div>
-				<h2 className='text-left text-4xl pl-10 ml-10 py-10 text-secondary-blue-dark'>More Exclusive Deals</h2>
-				<div className="pt-3 w-3/4 justify-center mx-auto pb-10">
-					<div className="justify-between gap-4 px-[200px] py-5 font-display text-primary-blue">
-						<div className="mx-5 gap-3 align-right">
-							<span className="text-4xl">
-								Coming Soon!
-							</span>
-						</div>
-					</div>							
-				</div>
 			</div>
 		</>
 	)
