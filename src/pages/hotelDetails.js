@@ -153,29 +153,28 @@ function HotelDetails() {
 							<div className="collapse-title text-left text-3xl pl-10 py-10 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-none">
 								Digital Payment
 							</div>
-							<div className="collapse-content"> 
-								<div className="p-1 px-20 flex">
-									<div className="form-control">
-										<label className="label cursor-pointer">
-											<input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
-											<span className="label-text text-left pl-1">I wish to receive exclusive promotions from Tranquil Retreat  </span> 
-										</label>
-									</div>
-								</div>
-								<div className="p-1 px-20 flex">
-									<div className="form-control">
-										<label className="label cursor-pointer">
-											<input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
-											<span className="label-text pl-1">I agree to the Terms of Use, Privacy Statement, and Cancellation Rate Details</span> 
-										</label>
-									</div>
-								</div>
+							<div className="collapse-content" /> 
+						</div>
+						<div className="p-1 px-20 flex">
+							<div className="form-control">
+								<label className="label cursor-pointer">
+									<input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
+									<span className="label-text text-left pl-1">I wish to receive exclusive promotions from Tranquil Retreat  </span> 
+								</label>
+							</div>
+						</div>
+						<div className="p-1 px-20 flex">
+							<div className="form-control">
+								<label className="label cursor-pointer">
+									<input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
+									<span className="label-text pl-1">I agree to the <a href="#" className="text-blue-600">Terms of Use</a>, <a href="#" className="text-blue-600">Privacy Statement</a>, and <a href="#" className="text-blue-600">Cancellation Rate Details</a></span> 
+								</label>
 							</div>
 						</div>
 						<div className="px-20 text-left flex justify-between">
 							<div className="py-3 mx-auto">
 								<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-10 rounded-xl focus:outline-none focus:shadow-outline" type="button">
-									Save Info
+									Complete Booking
 								</button>
 							</div>
 						</div>
