@@ -6,4 +6,6 @@ Hotel booking desktop design showcase. Two pages.
 - UI / UX Wireframes and Prototypes
 
 No backend integration.
-Streamlined happy path for user flow: Arrive at homepage -> Select hotel -> Checkout Processing Page
+
+Streamlined happy path for user flow: 
+> Arrive at homepage -> Select hotel -> Checkout Processing Page
